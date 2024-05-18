@@ -1,0 +1,52 @@
+QLabel {
+    font-size: 18px;
+    font-family: Arial, sans-serif; 
+    font-weight: bold;
+    color: #ef498b;
+}
+
+
+
+/* 设置按钮的样式 */  
+QPushButton {  
+    background-color: #80766e; 
+    border: 1px solid #ccc; /* 细边框 */  
+    color: black; /* 文本颜色 */  
+    padding: 5px 10px; /* 内边距 */  
+    border-radius: 8px; /* 圆角 */ 
+    font-size:18px; 
+}  
+
+
+/* 按钮悬停时的样式 */  
+QPushButton:hover {  
+    background-color: #b7a091; /* 鼠标悬停时背景变深 */  
+}  
+  
+/* 按钮被按下时的样式 */  
+QPushButton:pressed {  
+    background-color: #ccc; /* 按钮被按下时背景色 */  
+} 
+
+
+
+/* 设置自旋框的样式 */  
+QSpinBox {  
+    font-size: 15px;
+    font-family: Arial, sans-serif; 
+    border: 1px solid #ccc; /* 细边框 */  
+    padding: 2px; /* 内边距 */  
+    border-radius: 4px; /* 圆角 */  
+    
+}  
+  
+
+/* 设置自旋框上下箭头悬停时的样式 */  
+QSpinBox::up-button:hover, QSpinBox::down-button:hover {  
+    background-color: #eee; /* 鼠标悬停时背景变深 */  
+}  
+  
+/* 设置自旋框上下箭头被按下时的样式 */  
+QSpinBox::up-button:pressed, QSpinBox::down-button:pressed {  
+    background-color: #ddd; /* 按钮被按下时背景色 */  
+}
